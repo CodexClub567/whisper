@@ -1,0 +1,12 @@
+# Specify file or directory ownership rules
+
+# Default owner for all files
+*       @CodexClub567
+
+# Ownership for specific directories
+/docs/  @CodexClub567-team
+/src/   @CodexClub567_backend-team
+
+# Ownership for specific file types
+*.md    @editors
+*.yml   @devops-team
